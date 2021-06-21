@@ -1,16 +1,17 @@
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://shedrackgodson.pythonanywhere.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          shedrackgodson.pythonanywhere.com
-        </a>
-      </header>
+    <div>
+      <Header />
+      <main className="py-4">
+        <Container>
+          <h1>Welcome..</h1>
+        </Container>
+      </main>
+      <Footer />
     </div>
   );
 }
